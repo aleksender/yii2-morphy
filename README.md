@@ -71,3 +71,5 @@ if ($paradigms = $morphy->findWord($word)) {
     }
 }
 ```
+
+You also can see documentation of usage [here](http://phpmorphy.sourceforge.net/dokuwiki/manual).
