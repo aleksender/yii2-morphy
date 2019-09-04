@@ -1,0 +1,40 @@
+{
+  "name": "aleksender/yii2-morphy",
+  "description": "Morphological analyze package for yii2 based on phpMorphy",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2-morphy",
+    "morphy",
+    "morphology",
+    "phpmorphy",
+    "yii2morphy"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Khliupin",
+      "email": "aleksandr.khliupin@gmail.com",
+      "homepage": "https://github.com/aleksender"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.14",
+    "aleksender/phpmorphy": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "aleksender\\morphy\\": "src"
+    }
+  }
+}
