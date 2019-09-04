@@ -1,7 +1,9 @@
 yii2-morphy
 ============
 
-Morphological analyze package for yii2 based on phpMorphy
+[![GitHub tag](https://img.shields.io/github/tag/aleksender/yii2-morphy.svg?label=latest)](https://packagist.org/packages/aleksender/yii2-morphy)
+
+Morphological analyze package for Yii2 Framework based on phpMorphy
 
 
 ## Installation
