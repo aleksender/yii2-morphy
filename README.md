@@ -29,7 +29,7 @@ composer require aleksender/yii2-morphy
 Completely similar phpMorphy.
 
 ```php
-$morphy = new \aleksender\yii2-morphy\PhpMorphy();
+$morphy = new \aleksender\morphy\PhpMorphy();
 $word = "КОТ";
 
 if ($paradigms = $morphy->findWord($word)) {
@@ -50,7 +50,7 @@ Or you can use like component:
     'components' => [
         ...
         'morphy' => [
-            'class' => \aleksender\yii2-morphy\PhpMorphy::class,
+            'class' => \aleksender\morphy\PhpMorphy::class,
             'lang' => 'ru',
         ],
         ...
