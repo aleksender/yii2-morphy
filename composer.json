@@ -1,6 +1,6 @@
 {
   "name": "aleksender/yii2-morphy",
-  "description": "Morphological analyze package for yii2 based on phpMorphy",
+  "description": "Morphological analyze package for Yii2 Framework based on phpMorphy",
   "type": "yii2-extension",
   "keywords": [
     "yii2-morphy",
